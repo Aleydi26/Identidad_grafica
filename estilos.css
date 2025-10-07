@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+.barra{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+
+.custom-font{
+    font-family: "Bodoni Moda SC", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+nav {
+  position: fixed; 
+  top: 0;
+  width: 100%;
+  background-color: #ebe9e9;
+  padding: 10px 0;
+  z-index: 1000; 
+}
+
+nav ul {
+  list-style: none; 
+  margin: 25px;
+  display: flex;
+  justify-content: right; /
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none; 
+  color: #333;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffffff; 
+}
+
+.imagen_inicio{
+    position: relative;
+    width: 1440px;
+    height: 680px;
+    margin: 25px;
+    display: flex;
+    justify-content: left; 
+    align-items: center;
+}
+
+.contenedor-interno {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    border: 25px;
+    padding: 10px;
+    margin: 25px;
+    text-align: justify;
+    bottom: -50px;      
+    left: 20px; 
+    }
+
+.mi-boton{ 
+    display: block;
+    padding: 10px;
+    width: 200px;
+    background-color: transparent;
+    border-radius: 40px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    border: 2px solid #000;
+    
+
+}
+
+.mi-boton:hover{
+    background-color: rgb(216, 215, 215);
+    color: #000;
+    width: 200px;
+}
+
+.cuadro_img{
+    float: left;
+    width: 445px;
+    height: 380px;
+    margin: 25px;
+   
+}
+
+.cuadro_texto{
+    float: left;
+    width: 445px;
+    height: 200px;
+    margin: 25px;
+    text-align: justify;
+}
+
+.imagen5{
+    float: left;
+    width: 940px;
+    height: 430px;
+    margin: 25px;
+}
+
+.texto5{
+    float: left;
+    width: 445px;
+    height: 430px;
+    margin: 25px;
+    text-align: justify;
+
+}
+
+.imagen6{
+    float: left;
+    width: 940px;
+    height: 330px;
+    margin: 25px;
+
+}
+
+.texto6{
+    float: left;
+    width: 445px;
+    height: 330px;
+    margin: 25px;
+    text-align: justify;
+}
+
+.contacto{
+    float: left;
+    width: 1440px;
+    height: 100px;
+    margin: 25px;
+    background-color: #ebe9e9;
+
+}
+
+.contenedor{
+    position: relative;   
+    width: 1440px;
+    height: 500px;
+    margin: 25px;
+}
+
+.tex-1{
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+    bottom: 50%;      
+    left: 50%; 
+     transform: translate(-50%, 50%);
+}
+
+.cuadro{
+    width: 1440px;
+    height: 40px;
+    margin: 25px;
+}
+
+.cuadro_img2{
+    float: left;
+    width: 320px;
+    height: 380px;
+    margin: 25px;
+}
+
+.cuadro_texto2{
+    float: left;
+    width: 320px;
+    height: 200px;
+    margin: 25px;
+    text-align: justify;
+}
+
+.copy{
+    text-decoration: none;
+    color: #000;
+    font-size: 12pt;
+    text-align: center;
+}
